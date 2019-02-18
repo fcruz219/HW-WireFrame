@@ -1,4 +1,44 @@
 body{
-    color: blue
-    
+    background-color: #777
+}
+    h1 {
+        color: #777;
+        background-color: #ebebeb
+
+    }
+    p {
+        color: #777;
+        background-color: #ebebeb
+    }
+/* header     */
+div.a {
+    margin: 100px;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+/* nav */
+div.b {
+    margin: 100px;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+
+/* footer */
+div.e {
+    margin: 100px;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 }
