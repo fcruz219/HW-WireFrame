@@ -12,7 +12,12 @@ body{
     }
 /* header     */
 div.a {
-    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777;
+    margin-top: 60px;
+  margin-right: 150px;
+  margin-left: 150px;
     background-color: lightgray;
     text-align: center;
     padding-top: 50px;
@@ -22,7 +27,13 @@ div.a {
 }
 /* nav */
 div.b {
-    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    font-size: 18px;
+    margin-top: 60px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 150px;
     background-color: lightgray;
     text-align: center;
     padding-top: 50px;
@@ -34,7 +45,13 @@ div.b {
 
 /* footer */
 div.e {
-    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    font-size: 18px;
+    margin-top: 60px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 150px;
     background-color: lightgray;
     text-align: center;
     padding-top: 50px;
