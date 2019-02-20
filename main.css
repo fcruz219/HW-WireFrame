@@ -1,61 +1,66 @@
-body{
-    background-color: #777
-}
-    h1 {
-        color: #777;
-        background-color: #ebebeb
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
 
-    }
-    p {
-        color: #777;
-        background-color: #ebebeb
-    }
-/* header     */
-div.a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+  body {
+    font-size: 24px;
+    line-height: 32px;
+    background: #777;
     color: #777;
-    margin-top: 60px;
-  margin-right: 150px;
-  margin-left: 150px;
-    background-color: lightgray;
-    text-align: center;
-    padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
-}
-/* nav */
-div.b {
     font-family: Arial, Helvetica, sans-serif;
-    color: #777;
+    width: 960px;
     font-size: 18px;
-    margin-top: 60px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 150px;
-    background-color: lightgray;
-    text-align: center;
-    padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
+  }
+
+.header {
+    padding: 20px;
+    margin-bottom: 10px;
+    background: #ebebeb;
+    width: 495px;
 }
 
+.nav {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #ebebeb;
+    width: 495px;
+}
 
-/* footer */
-div.e {
-    font-family: Arial, Helvetica, sans-serif;
+.section {
+    float: left;
+    padding: 20px;
+    background: #ebebeb;
+    width: 495px;
+}
+
+.article {
+    color: #ebebeb;
+    background: #777;
+    width: 495px;
+}
+
+.h1 {
     color: #777;
-    font-size: 18px;
-    margin-top: 60px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 150px;
-    background-color: lightgray;
-    text-align: center;
-    padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
+    background: #ebebeb;
+    width: 495px;
+}
+
+.p{
+    color: #777;
+    background: #ebebeb;
+    width: 495px;
+}
+.aside {
+    float: left;
+    padding: 20px;
+    background: #ebebeb;
+    width: 495px;
+}
+
+.footer {
+    padding: 20px;
+    margin-bottom: 10px;
+    background: #ebebeb;
+    width: 495px;
 }
