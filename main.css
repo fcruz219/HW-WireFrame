@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     text-align: center;
+    vertical-align: middle
   }
 
 body {
@@ -12,7 +13,7 @@ body {
     margin: auto;
   }
 
-header {
+#header {
     padding: 40px;
     margin-bottom: 10px;
     background: #ebebeb;
@@ -28,20 +29,50 @@ header {
 #section {
     float: left;
     width: 495px;
-    height: 300px;
     background: #ebebeb;
     margin-bottom: 10px;
 }
 
 #aside {
-    float: right;
-    width: 495px;
-    height: 300px;
+    float: left;
+    width: 465px;
+    height: 285px;
     background: #ebebeb;
+    border: 1px solid #eee;
+
 }
 
-article {
-    color: #ebebeb
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#article {
+    color: #ebebeb;
+    background-color: #777;
+    padding: 10px;
+    width:90%;
+    margin: auto;
+    overflow: auto;
+}
+
+#h1 {
+    background-color: #ebebeb;
+    color: #777;
+    float: left;
+    overflow: auto;
+    margin: 30px;
+    width: 300px;
+}
+
+#p {
+    background-color: #ebebeb;
+    color: #777;
+    margin-top: 30px;
+    padding: 10px;
 }
 
 #footer {
